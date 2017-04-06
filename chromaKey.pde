@@ -5,7 +5,7 @@ PImage backgroundImage;
 float threshold = 200;
 
 void setup() {
-  size(320, 240);
+  size(640, 480);
   video = new Capture(this, width, height);
   video.start();
   backgroundImage = createImage(video.width, video.height, RGB);
