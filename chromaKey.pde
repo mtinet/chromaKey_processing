@@ -2,7 +2,7 @@ import processing.video.*;
 
 Capture video;
 PImage backgroundImage;
-float threshold = 20;
+float threshold = 200;
 
 void setup() {
   size(320, 240);
